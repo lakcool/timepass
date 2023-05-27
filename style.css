@@ -1,0 +1,154 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.inner{
+    padding-top: 20px;
+}
+.h{
+    text-align: center;
+    color: #333;
+    padding: 1rem;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+}
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: red;
+	color:white;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.work_hr{
+    height: 100px;
+    width: 50px;
+    background-color:green;
+    border-radius: 75px;
+
+}
+.work{
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
+#display{
+    font-size:  50px;
+    font-weight: bold;
+
+}
+.container{
+    justify-content: space-between;
+}
+#img_display{
+    height:90%;
+    width: auto;
+ 
+
+}
+#hr1{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 10px;
+    width: 125px;
+    border-radius: 75px;
+    align-self: center;
+
+}
+#webc{
+    font-size: 35px;
+    font-weight: bold;
+}
+#camera
+{
+ 
+    border:1px solid grey;
+}
+.navbar{
+    position: sticky;
+}
+.nav-link:hover{
+    font-size: large;
+    color:white;
+}
+.hh{
+    color:#1f3485;
+    font-size: 40px;
+}
+.aboutme{
+    width: 100%;
+    min-height: 100vh;
+}
+.cont{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.contentsec{
+    float: left;
+    width: 55%;
+}
+.img{
+    float: right;
+    width: 40%;
+}
+.img44{
+    width: 100%;
+    height: auto;
+
+}
+.cont{
+    margin-top: 20px;
+}
+.social{
+    margin-top: 40px;
+}
+.card{
+    border: #1f3485 1px ;
+}
+.icon{
+    width: 50px;
+}
+.box{
+    padding: 1rem;
+    color:  #1f3485;
+    
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
